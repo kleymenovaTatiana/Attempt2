@@ -11,7 +11,7 @@ namespace BusinessLogic.Services
 {
     public class CategoryService : ICategoryService
     {
-        private IRepositoryWrapper _repositoryWrapper;
+   private IRepositoryWrapper _repositoryWrapper;
         public CategoryService(IRepositoryWrapper repositoryWrapper)
         {
             _repositoryWrapper = repositoryWrapper;
